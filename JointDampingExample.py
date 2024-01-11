@@ -23,7 +23,7 @@
     ProteusDS set of init file were created from start to finish using PST.  The ABA joint connection 
     CJoint damping coefficients were purposefully left blank. The project init files can be opened and 
     modified using PST. 
-	
+    
     The idea for this example is to model the damping forces for the piston/cylinder externally to 
     ProteusDS. The system is set up using RigidBody ABA connections. The hydraulic piston joint actuation
     rate is extracted from the simulation and used in a resistive force model. The computed resistive force

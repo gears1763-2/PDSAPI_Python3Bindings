@@ -1,8 +1,8 @@
 # Python3 Bindings for the ProteusDS API
 
-	Anthony Truelove MASc, P.Eng.
-	email:  wtruelove@uvic.ca
-	
+    Anthony Truelove MASc, P.Eng.
+    email:  wtruelove@uvic.ca
+    
 This project provides the infrastructure for building Python3 bindings for the ProteusDS API, given only
 the `.h`, `.dll`, `.lib` files that ship with the latest version of ProteusDS. In addition, a minimal
 working example is provided (namely, the `3-Joint_damping` example, as laid out in the API C++ samples).
@@ -15,7 +15,7 @@ working example is provided (namely, the `3-Joint_damping` example, as laid out 
 In the directory for this project, you should find this `README.md`, a `build_python_bindings.bat`, 
 a `JointDampingExample.py`, a `PYBIND11_ProteusDSAPI.cpp`, a `setup.py`, and the following sub-directories
 
-	Inputs/		For holding the ProteusDS input files for the joint damping example
+    Inputs/     For holding the ProteusDS input files for the joint damping example
 
 --------
 
@@ -35,8 +35,8 @@ is achieved through the interaction of three key files; namely
 To actually build the bindings, all you should need to do is open a command prompt in the project 
 directory, and then invoke the batch file; that is
 
-	C:\...\ProteusDS\API\Bindings\Python3>build_python_bindings.bat
-	
+    C:\...\ProteusDS\API\Bindings\Python3>build_python_bindings.bat
+    
 The result should be a `ProteusDSAPI.cp3XX-win_amd64.pyd` file (or similar). Note that the generated
 bindings are Python version specific! (That's the `cp3XX` part of the file name.) For example, bindings
 built for Python 3.7 will not work under Python 3.12 and vice versa. The most portable solution
@@ -100,8 +100,8 @@ Note that this file is not position independent, but assumes that it has been pl
 Once the bindings have been successfully built, you can run the minimal working example (found in 
 `JointDamingExample.py`) simply by invoking
 
-	C:\...\ProteusDS\API\Bindings\Python3>python JointDampingExample.py
-	
+    C:\...\ProteusDS\API\Bindings\Python3>python JointDampingExample.py
+    
 A running print should appear in the command prompt, and a `Results/` folder should be created and
 populated with simulation outputs.
 
@@ -109,15 +109,15 @@ populated with simulation outputs.
 This project was successfully tested on the following OS and architecture:
 
     Operating System: Windows 11 Pro
-	     Version: Build 22621.ni_release.220506-1250
-	Architecture: 64-bit OS, x64-based processor
+             Version: Build 22621.ni_release.220506-1250
+        Architecture: 64-bit OS, x64-based processor
 
 The following compiler/linker/SDK was used in testing
 
-	Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27051 for x64
-	Microsoft (R) Incremental Linker Version 14.16.27051.0
-	SDK 10.0.20348.0
+    Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27051 for x64
+    Microsoft (R) Incremental Linker Version 14.16.27051.0
+    SDK 10.0.20348.0
 
 The Python version used was 3.12.0.
 
-	
+    

@@ -1,21 +1,21 @@
 :: ================================ ::
 ::
-::	Anthony Truelove MASc, P.Eng.
-::	email:  wtruelove@uvic.ca
+::  Anthony Truelove MASc, P.Eng.
+::  email:  wtruelove@uvic.ca
 ::
-::	Batch file to handle 
-::		
-::		1. The set up of an MSVC v141 (v14.16) - VS 2017 C++ x64/x86 (Windows SDK 10.0.20348.0) environment.
+::  Batch file to handle 
+::      
+::      1. The set up of an MSVC v141 (v14.16) - VS 2017 C++ x64/x86 (Windows SDK 10.0.20348.0) environment.
 ::         This is important as MSVC v141 is specifically required to work with the API.
 ::
-::		2. The building of Python3 bindings for the ProteusDS API (by way of the corresponding setup.py).
+::      2. The building of Python3 bindings for the ProteusDS API (by way of the corresponding setup.py).
 ::
-::	For this to work under your specific Visual Studio install, adjust the PATH_2_VCVARSALL variable as
-::	necessary. There must be a better way to make this more portable? Perhaps there's already an 
-::	environment variable for what I'm calling PATH_2_VCVARSALL here (or at lease for part of that
-::	path)??
+::  For this to work under your specific Visual Studio install, adjust the PATH_2_VCVARSALL variable as
+::  necessary. There must be a better way to make this more portable? Perhaps there's already an 
+::  environment variable for what I'm calling PATH_2_VCVARSALL here (or at lease for part of that
+::  path)??
 ::
-::	ref: https://stackoverflow.com/questions/50830609/run-cl-exe-from-cmd
+::  ref: https://stackoverflow.com/questions/50830609/run-cl-exe-from-cmd
 ::
 :: ================================ ::
 
