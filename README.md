@@ -109,8 +109,8 @@ populated with simulation outputs.
 This project was successfully tested on the following OS and architecture:
 
     Operating System: Windows 11 Pro
-		     Version: Build 22621.ni_release.220506-1250
-	    Architecture: 64-bit OS, x64-based processor
+	     Version: Build 22621.ni_release.220506-1250
+	Architecture: 64-bit OS, x64-based processor
 
 The following compiler/linker/SDK was used in testing
 
