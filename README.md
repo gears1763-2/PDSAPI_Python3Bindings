@@ -45,6 +45,8 @@ rather than pre-building for a specific version and just providing that.
 
 Of course, for this to work, you need to
 
+  * Have a licensed copy of ProteusDS + API installed on your system (as available from <https://proteusds.com/proteusds-api-toolset/>).
+
   * Have Python for Windows installed (as available from <https://www.python.org/downloads/>; Python3.7+ should suffice).
   
   * Have Visual Studio 2017 installed (as available from <https://visualstudio.microsoft.com/downloads/>; the community edition is fine). Specifically, you need MSVC v141 and SDK 10.0.20348.0.
