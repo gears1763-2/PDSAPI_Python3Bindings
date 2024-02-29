@@ -42,6 +42,17 @@
  */
 
 
+///
+/// \file PYBIND11_ProteusDSAPI.cpp
+///
+/// \brief Implementation file for generating some wrapper functions and bindings, by
+///        way of pybind11.
+///
+/// Implementation file for generating some wrapper functions and bindings, by way of
+/// pybind11.
+///
+
+
 #include <iostream>
 #include <fstream>
 #include <string>
@@ -66,6 +77,29 @@
 
 // ----------------------------------------------------------------------------------------------------- //
 
+///
+/// \fn std::vector<double> GetDoubleArray(
+///         std::string unique_simulation_label,
+///         int command,
+///         std::string dobject_name,
+///         size_t n_elements
+///     )
+///
+/// \brief Wrapper on ProteusDSAPI::GetDoubleArray that creates and returns the desired
+///     std::vector<double>.
+///
+/// \param unique_simulation_label The API label for the target simulation.
+///
+/// \param command Defines the attribute of interest (resolved by the PDSAPI::PDSAPI 
+///     enumeration).
+///
+/// \param dobject_name Defines the dobject of interest.
+///
+/// \param n_elements Defines the size of the std::vector<double> to be returned.
+///
+/// \return The desired std::vector<double>.
+///
+
 std::vector<double> GetDoubleArray(
     std::string unique_simulation_label,
     int command,
@@ -85,6 +119,26 @@ std::vector<double> GetDoubleArray(
 
 // ----------------------------------------------------------------------------------------------------- //
 
+///
+/// \fn double GetDouble(
+///         std::string unique_simulation_label,
+///         int command,
+///         std::string dobject_name
+///     )
+///
+/// \brief Wrapper on ProteusDSAPI::GetDouble that creates and returns the desired
+///     double.
+///
+/// \param unique_simulation_label The API label for the target simulation.
+///
+/// \param command Defines the attribute of interest (resolved by the PDSAPI::PDSAPI 
+///     enumeration).
+///
+/// \param dobject_name Defines the dobject of interest.
+///
+/// \return The desired double.
+///
+
 double GetDouble(
     std::string unique_simulation_label,
     int command,
@@ -102,6 +156,29 @@ double GetDouble(
 
 
 // ----------------------------------------------------------------------------------------------------- //
+
+///
+/// \fn std::vector<double> GetIntArray(
+///         std::string unique_simulation_label,
+///         int command,
+///         std::string dobject_name,
+///         size_t n_elements
+///     )
+///
+/// \brief Wrapper on ProteusDSAPI::GetIntArray that creates and returns the desired
+///     std::vector<int>.
+///
+/// \param unique_simulation_label The API label for the target simulation.
+///
+/// \param command Defines the attribute of interest (resolved by the PDSAPI::PDSAPI 
+///     enumeration).
+///
+/// \param dobject_name Defines the dobject of interest.
+///
+/// \param n_elements Defines the size of the std::vector<int> to be returned.
+///
+/// \return The desired std::vector<int>.
+///
 
 std::vector<int> GetIntArray(
     std::string unique_simulation_label,
@@ -122,6 +199,26 @@ std::vector<int> GetIntArray(
 
 // ----------------------------------------------------------------------------------------------------- //
 
+///
+/// \fn double GetInt(
+///         std::string unique_simulation_label,
+///         int command,
+///         std::string dobject_name
+///     )
+///
+/// \brief Wrapper on ProteusDSAPI::GetInt that creates and returns the desired
+///     int.
+///
+/// \param unique_simulation_label The API label for the target simulation.
+///
+/// \param command Defines the attribute of interest (resolved by the PDSAPI::PDSAPI 
+///     enumeration).
+///
+/// \param dobject_name Defines the dobject of interest.
+///
+/// \return The desired int.
+///
+
 double GetInt(
     std::string unique_simulation_label,
     int command,
@@ -140,6 +237,26 @@ double GetInt(
 
 // ----------------------------------------------------------------------------------------------------- //
 
+///
+/// \fn double GetString(
+///         std::string unique_simulation_label,
+///         int command,
+///         std::string dobject_name
+///     )
+///
+/// \brief Wrapper on ProteusDSAPI::GetString that creates and returns the desired
+///     std::string.
+///
+/// \param unique_simulation_label The API label for the target simulation.
+///
+/// \param command Defines the attribute of interest (resolved by the PDSAPI::PDSAPI 
+///     enumeration).
+///
+/// \param dobject_name Defines the dobject of interest.
+///
+/// \return The desired std::string.
+///
+
 std::string GetString(
     std::string unique_simulation_label,
     int command,
@@ -157,6 +274,17 @@ std::string GetString(
 
 
 // ----------------------------------------------------------------------------------------------------- //
+
+///
+/// \fn std::string GetErrorMessage(std::string unique_simulation_label)
+///
+/// \brief Wrapper on ProteusDSAPI::GetErrorMessage that creates and returns the desired
+///     std::string (i.e., the error message).
+///
+/// \param unique_simulation_label The API label for the target simulation.
+///
+/// \return The desired error message (std::string).
+///
 
 std::string GetErrorMessage(std::string unique_simulation_label)
 {
