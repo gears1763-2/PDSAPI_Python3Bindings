@@ -5,7 +5,7 @@
 
     A setup file for generating Python3 bindings for the ProteusDS API. To invoke, simply
     
-    $   python(3) setup.py build_ext --inplace --compiler=msvc
+    >  python(3) setup.py build_ext --inplace --compiler=msvc
     
     depending on your set up.
     
