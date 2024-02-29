@@ -1,7 +1,8 @@
 # Python3 Bindings for the ProteusDS API
 
-    Anthony Truelove MASc, P.Eng.
-    email:  wtruelove@uvic.ca
+    Anthony Truelove MASc, P.Eng.  
+    email:   wtruelove@uvic.ca
+    github:  gears1763-2 
     
 This project provides the infrastructure for building Python3 bindings for the ProteusDS API, given only
 the `.h`, `.dll`, `.lib` files that ship with the latest version of ProteusDS. In addition, a minimal
