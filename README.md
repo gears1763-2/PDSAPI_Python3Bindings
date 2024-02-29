@@ -1,4 +1,4 @@
-# Python3 Bindings for the ProteusDS API
+# Python 3 Bindings for the ProteusDS API
 
     Anthony Truelove MASc, P.Eng.  
     email:   wtruelove@uvic.ca
