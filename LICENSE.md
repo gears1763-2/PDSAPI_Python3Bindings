@@ -1,7 +1,7 @@
 # Python 3 Bindings for the ProteusDS API
     
     Anthony Truelove MASc, P.Eng.  
-    email: <wtruelove@uvic.ca>
+    email:   wtruelove@uvic.ca
     github:  gears1763-2 
 
 **3-Clause BSD License**  
