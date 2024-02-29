@@ -42,7 +42,7 @@ directory, and then invoke the batch file; that is
 The result should be a `ProteusDSAPI.cp3XX-win_amd64.pyd` file (or similar). Note that the generated
 bindings are Python version specific! (That's the `cp3XX` part of the file name.) For example, bindings
 built for Python 3.7 will not work under Python 3.12 and vice versa. The most portable solution
-would is to provide the user with the infrastructure to build bindings for their specific Python version,
+is to provide the user with the infrastructure to build bindings for their specific Python version,
 rather than pre-building for a specific version and just providing that (hence, this repo).
 
 Of course, for this to work, you need to
