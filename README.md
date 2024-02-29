@@ -47,7 +47,7 @@ rather than pre-building for a specific version and just providing that (hence, 
 
 Of course, for this to work, you need to
 
-  * Have a licensed copy of ProteusDS + API installed on your system (as available from <https://proteusds.com/proteusds-api-toolset/>).
+  * Have a licensed copy of ProteusDS + API installed on your system (as available from <https://proteusds.com/downloads/>).
 
   * Have Python for Windows installed (as available from <https://www.python.org/downloads/>; Python3.7+ should suffice).
   
