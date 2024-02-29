@@ -1,7 +1,8 @@
 :: ================================ ::
 ::
-::  Anthony Truelove MASc, P.Eng.
-::  email:  wtruelove@uvic.ca
+::  Anthony Truelove MASc, P.Eng.  
+::  email:   wtruelove@uvic.ca
+::  github:  gears1763-2 
 ::
 ::  Batch file to handle 
 ::      
