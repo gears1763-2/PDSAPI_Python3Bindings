@@ -5,8 +5,9 @@
     github:  gears1763-2 
     
 This project provides the infrastructure for building Python3 bindings for the ProteusDS API, given only
-the `.h`, `.dll`, `.lib` files that ship with the latest version of ProteusDS. In addition, a minimal
-working example is provided (namely, the `3-Joint_damping` example, as laid out in the API C++ samples).
+the `.h`, `.dll`, `.lib` files that ship with the latest version of ProteusDS (it is assumed that you
+already have access to these). In addition, a minimal working example is provided (namely, the 
+`3-Joint_damping` example, as laid out in the API C++ samples).
 
 --------
 
