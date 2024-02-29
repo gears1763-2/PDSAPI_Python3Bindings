@@ -1,6 +1,7 @@
 """
-    Anthony Truelove MASc, P.Eng.
-    email:  wtruelove@uvic.ca
+    Anthony Truelove MASc, P.Eng.  
+    email:   wtruelove@uvic.ca
+    github:  gears1763-2 
     
     Testing the Python3 bindings for the ProteusDS API (it's the 3-Joint_damping C++ sample).
     
