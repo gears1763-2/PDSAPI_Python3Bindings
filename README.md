@@ -12,7 +12,7 @@ working example is provided (namely, the `3-Joint_damping` example, as laid out 
 
 ## Contents
 
-In the directory for this project, you should find this `README.md`, a `build_python_bindings.bat`, 
+In the directory for this project, you should find this `README.md`, a `LICENSE.md`, a `build_python_bindings.bat`, 
 a `JointDampingExample.py`, a `PYBIND11_ProteusDSAPI.cpp`, a `setup.py`, and the following sub-directories
 
     Inputs/     For holding the ProteusDS input files for the joint damping example
